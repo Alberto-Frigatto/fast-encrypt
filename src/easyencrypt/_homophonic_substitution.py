@@ -156,10 +156,7 @@ class HomophonicSubstitution(Encryptor):
         prepared_text = ''
 
         for char in handled_text:
-            if not char.isdigit() and char != ' ' and char.upper() not in self._alphabet:
-                continue
-
-            if char.isdigit():
+            if char != ' ' and char.upper() not in self._alphabet:
                 prepared_text += f'\0{char}'
             else:
                 prepared_text += char
@@ -195,13 +192,13 @@ class HomophonicSubstitution(Encryptor):
 
         decrypted_text = ''
 
-        is_number_char = False
+        is_special_char = False
 
         for char in handled_cipher_text:
             for original, substitute_chars in self._substitution_dict.items():
-                if is_number_char:
+                if is_special_char:
                     decrypted_text += char
-                    is_number_char = False
+                    is_special_char = False
                     break
 
                 if char in substitute_chars:
@@ -209,7 +206,7 @@ class HomophonicSubstitution(Encryptor):
                     break
             else:
                 if char == '\0':
-                    is_number_char = True
+                    is_special_char = True
                 else:
                     decrypted_text += char
 
