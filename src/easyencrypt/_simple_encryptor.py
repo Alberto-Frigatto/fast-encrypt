@@ -5,7 +5,7 @@ Defines the abstract base class for encryptors.
 from abc import ABCMeta, abstractmethod
 
 
-class Encryptor(metaclass=ABCMeta):
+class SimpleEncryptor(metaclass=ABCMeta):
     """
     Abstract base class for encryptors.
 
