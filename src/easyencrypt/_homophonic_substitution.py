@@ -4,14 +4,14 @@ Defines a class for encrypting and decrypting text using the homophonic substitu
 
 import random
 
-from ._encryptor import Encryptor
+from ._simple_encryptor import SimpleEncryptor
 
 
-class HomophonicSubstitution(Encryptor):
+class HomophonicSubstitution(SimpleEncryptor):
     """
     Class for encrypting and decrypting text using the Homophonic Substitution cipher.
 
-    This class inherits from `Encryptor`.
+    This class inherits from `SimpleEncryptor`.
 
     Methods
     -------

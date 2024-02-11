@@ -2,14 +2,14 @@
 Defines a class for encrypting and decrypting text using Caesar's cipher.
 """
 
-from ._encryptor import Encryptor
+from ._simple_encryptor import SimpleEncryptor
 
 
-class CaesarsCipher(Encryptor):
+class CaesarsCipher(SimpleEncryptor):
     """
     Class for encrypting and decrypting text using Caesar's cipher.
 
-    This class inherits from `Encryptor`.
+    This class inherits from `SimpleEncryptor`.
 
     Methods
     -------

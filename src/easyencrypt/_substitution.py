@@ -2,14 +2,14 @@
 Defines a class for encrypting and decrypting text using substitution cipher.
 """
 
-from ._encryptor import Encryptor
+from ._simple_encryptor import SimpleEncryptor
 
 
-class Substitution(Encryptor):
+class Substitution(SimpleEncryptor):
     """
     Class for encrypting and decrypting text using substitution cipher.
 
-    This class inherits from `Encryptor`.
+    This class inherits from `SimpleEncryptor`.
 
     Methods
     -------

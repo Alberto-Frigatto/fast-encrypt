@@ -2,14 +2,14 @@
 Defines a class for encrypting and decrypting text using Morse code.
 """
 
-from ._encryptor import Encryptor
+from ._simple_encryptor import SimpleEncryptor
 
 
-class MorseCode(Encryptor):
+class MorseCode(SimpleEncryptor):
     """
     Class for encrypting and decrypting text using Morse code.
 
-    This class inherits from `Encryptor`.
+    This class inherits from `SimpleEncryptor`.
 
     Methods
     -------
