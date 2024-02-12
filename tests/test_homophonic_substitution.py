@@ -30,7 +30,7 @@ class TestHomophonicSubstitution:
 
         assert decrypted_text == expected
 
-    def test_when_receives_key_KEY_and_then_encrypts_and_decrypts_John_Frusciante_returns_JOHN_FRUSCIANTE(
+    def test_when_receives_key_KEY_and_then_encrypts_and_decrypts_a_text_returns_the_proper_value(
         self,
     ):
         h_substitution = HomophonicSubstitution('KEY')
