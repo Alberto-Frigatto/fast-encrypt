@@ -23,8 +23,8 @@ class Atbash(SimpleEncryptor):
     --------
     Encrypting a text:
 
-    >>> from encrypt import AtBash
-    >>> atbash_cipher = AtBash()
+    >>> from encrypt import Atbash
+    >>> atbash_cipher = Atbash()
     >>> atbash_cipher.encrypt('Hello World!')
     "Svool Dliow!"
     >>> atbash_cipher.encrypt('Billie Joe Armstrong')
@@ -32,7 +32,7 @@ class Atbash(SimpleEncryptor):
 
     Decrypting a text:
 
-    >>> atbash_cipher = AtBash()
+    >>> atbash_cipher = Atbash()
     >>> atbash_cipher.decrypt('Svool Dliow!')
     "Hello World!"
     >>> atbash_cipher.decrypt('Yroorv Qlv Zinhgilmt')
@@ -75,7 +75,7 @@ class Atbash(SimpleEncryptor):
 
         Examples
         --------
-        >>> atbash_cipher = AtBash()
+        >>> atbash_cipher = Atbash()
         >>> atbash_cipher.encrypt('Hello World!')
         "Svool Dliow!"
         >>> atbash_cipher.encrypt('Billie Joe Armstrong')
@@ -138,7 +138,7 @@ class Atbash(SimpleEncryptor):
 
         Examples
         --------
-        >>> atbash_cipher = AtBash()
+        >>> atbash_cipher = Atbash()
         >>> atbash_cipher.decrypt('Svool Dliow!')
         "Hello World!"
         >>> atbash_cipher.decrypt('Yroorv Qlv Zinhgilmt')
