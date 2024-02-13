@@ -1,6 +1,6 @@
 import pytest
 
-from src.easyencrypt import Atbash
+from src.fast_encrypt import Atbash
 
 
 class TestAtbash:

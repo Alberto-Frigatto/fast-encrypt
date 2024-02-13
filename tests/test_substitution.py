@@ -1,6 +1,6 @@
 import pytest
 
-from src.easyencrypt import Substitution
+from src.fast_encrypt import Substitution
 
 
 class TestSubstitution:

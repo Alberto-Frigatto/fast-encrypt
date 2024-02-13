@@ -1,6 +1,6 @@
 import pytest
 
-from src.easyencrypt import CaesarsCipher
+from src.fast_encrypt import CaesarsCipher
 
 
 class TestCaesarsCipher:

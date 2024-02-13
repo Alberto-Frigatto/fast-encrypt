@@ -1,6 +1,6 @@
 import pytest
 
-from src.easyencrypt import RSA
+from src.fast_encrypt import RSA
 
 
 class TestRSA:

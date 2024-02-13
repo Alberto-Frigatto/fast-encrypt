@@ -1,6 +1,6 @@
 import pytest
 
-from src.easyencrypt import Vigenere
+from src.fast_encrypt import Vigenere
 
 
 class TestVigenere:

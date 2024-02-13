@@ -1,6 +1,6 @@
 import pytest
 
-from src.easyencrypt import HomophonicSubstitution
+from src.fast_encrypt import HomophonicSubstitution
 
 
 class TestHomophonicSubstitution:

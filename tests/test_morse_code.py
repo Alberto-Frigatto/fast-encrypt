@@ -1,6 +1,6 @@
 import pytest
 
-from src.easyencrypt import MorseCode
+from src.fast_encrypt import MorseCode
 
 
 class TestMorseCode:

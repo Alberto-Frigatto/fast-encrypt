@@ -1,6 +1,6 @@
 import pytest
 
-from src.easyencrypt import Atbash, CaesarsCipher, HomophonicSubstitution, MorseCode, Pipeline
+from src.fast_encrypt import Atbash, CaesarsCipher, HomophonicSubstitution, MorseCode, Pipeline
 
 
 class TestPipeline:
