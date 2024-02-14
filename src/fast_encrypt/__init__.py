@@ -1,3 +1,14 @@
+'''
+`fast-encrypt`
+============
+
+fast-encrypt is a comprehensive Python library that offers a
+variety of cryptographic methods to protect sensitive data simply and effectively.
+
+Github link https://github.com/Alberto-Frigatto/fast-encrypt
+PyPi link https://pypi.org/project/fast-encrypt/
+'''
+
 from ._atbash import Atbash
 from ._caesars_cipher import CaesarsCipher
 from ._homophonic_substitution import HomophonicSubstitution
