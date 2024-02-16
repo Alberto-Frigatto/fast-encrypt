@@ -38,6 +38,7 @@ class Substitution(SimpleEncryptor):
 
     Decrypting a text
 
+    >>> substitution_cipher = Substitution('QWERTYUIOPASDFGHJKLZXCVBNM')
     >>> substitution_cipher.decrypt('Itssg Vgksr!')
     "Hello World!"
     >>> substitution_cipher.decrypt('Pgif Ykxleoqfzt')

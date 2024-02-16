@@ -11,7 +11,7 @@ _private_key = tuple[int, int]
 
 class RSA:
     """
-    A class for implementing the RSA algorithm for asymmetric encryption.
+    Class for implementing the RSA algorithm for asymmetric encryption.
 
     `RSA` is a public-key encryption algorithm widely used in secure data transmission
     and digital signatures. It relies on the practical difficulty of factoring the product
@@ -201,7 +201,7 @@ class RSA:
         Returns
         -------
         str
-            The decrypted text.
+            The decrypted plaintext.
 
         Examples
         --------

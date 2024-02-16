@@ -17,7 +17,7 @@ class Pipeline:
         Encrypts the input text using the pipeline of encryption steps.
 
     decrypt(text: str) -> str:
-        Decrypts the input text using the pipeline of decryption steps.
+        Decrypts the input text using the pipeline of reverse decryption steps.
 
     Examples
     --------

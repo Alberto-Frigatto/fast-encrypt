@@ -9,10 +9,6 @@ class SimpleEncryptor(metaclass=ABCMeta):
     """
     Abstract base class for encryptors.
 
-    Attributes
-    ----------
-    None
-
     Methods
     -------
     encrypt(text: str) -> str:

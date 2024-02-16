@@ -30,11 +30,15 @@ class MorseCode(SimpleEncryptor):
 
     >>> from fast_encrypt import MorseCode
     >>> morse = MorseCode()
+    >>> morse.encrypt('Hello World!')
+    ".... . .-.. .-.. --- .-- --- .-. .-.. -.."
     >>> morse.encrypt('Jimi Hendrix')
     ".--- .. -- .. .... . -. -.. .-. .. -..-"
 
     Decrypting a text
 
+    >>> morse.decrypt('.... . .-.. .-.. --- .-- --- .-. .-.. -..')
+    "HELLOWORLD"
     >>> morse.decrypt('.--- .. -- .. .... . -. -.. .-. .. -..-')
     "JIMIHENDRIX"
     """
@@ -95,7 +99,7 @@ class MorseCode(SimpleEncryptor):
         Examples
         --------
         >>> morse = MorseCode()
-        >>> morse.encrypt('Hello Wolrd!')
+        >>> morse.encrypt('Hello World!')
         ".... . .-.. .-.. --- .-- --- .-. .-.. -.."
         >>> morse.encrypt('Jimi Hendrix')
         ".--- .. -- .. .... . -. -.. .-. .. -..-"

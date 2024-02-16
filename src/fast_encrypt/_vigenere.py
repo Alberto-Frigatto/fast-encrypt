@@ -7,8 +7,9 @@ from ._simple_encryptor import SimpleEncryptor
 
 class Vigenere(SimpleEncryptor):
     """
-    Class for encrypting and decrypting text using the Vigenere cipher.
+    Class for encrypting and decrypting text using the Vigenère cipher.
 
+    This class inherits from `SimpleEncryptor`.
 
     The `Vigenère cipher` is a polyalphabetic substitution cipher that uses a keyword
     to determine the shift for each letter in the plaintext. It's more secure than simple
@@ -17,12 +18,10 @@ class Vigenere(SimpleEncryptor):
     more challenging to decipher without the key. Despite its historical significance, it can
     be vulnerable to cryptanalysis, especially with shorter keys or known plaintext attacks.
 
-    This class inherits from `SimpleEncryptor`.
-
     Methods
     -------
     encrypt(text: str) -> str:
-        Encrypts the input text using the Vigenere cipher.
+        Encrypts the input text using the Vigenère cipher.
 
     decrypt(cipher_text: str) -> str:
         Decrypts the input cipher text into plaintext.
@@ -49,7 +48,7 @@ class Vigenere(SimpleEncryptor):
 
     def __init__(self, key: str) -> None:
         """
-        Initializes the Vigenere cipher with the given key.
+        Initializes the Vigenère cipher with the given key.
 
         Parameters
         ----------
@@ -80,7 +79,7 @@ class Vigenere(SimpleEncryptor):
 
     def encrypt(self, text: str) -> str:
         """
-        Encrypts the input text using the Vigenere cipher.
+        Encrypts the input text using the Vigenère cipher.
 
         Parameters
         ----------
