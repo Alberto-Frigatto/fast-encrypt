@@ -270,7 +270,7 @@ The `encrypted_text` will can be:
 1485228768820288706400698504222851526198153333611564433069219712708655679297610713312684847266463375809614570944...
 ```
 
-The three dots means the result own more numbers.
+> The three dots means the result own more numbers.
 
 To decrypt it's very simple.
 
