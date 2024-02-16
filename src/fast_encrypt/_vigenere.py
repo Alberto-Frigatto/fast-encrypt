@@ -1,5 +1,5 @@
 """
-Defines a class for encrypting and decrypting text using the Vigenere cipher.
+Defines a class for encrypting and decrypting text using the Vigenère cipher.
 """
 
 from ._simple_encryptor import SimpleEncryptor
@@ -8,6 +8,14 @@ from ._simple_encryptor import SimpleEncryptor
 class Vigenere(SimpleEncryptor):
     """
     Class for encrypting and decrypting text using the Vigenere cipher.
+
+
+    The `Vigenère cipher` is a polyalphabetic substitution cipher that uses a keyword
+    to determine the shift for each letter in the plaintext. It's more secure than simple
+    substitution ciphers because it employs multiple Caesar ciphers in succession. The
+    keyword determines the order of these ciphers and hence the shifting pattern, making it
+    more challenging to decipher without the key. Despite its historical significance, it can
+    be vulnerable to cryptanalysis, especially with shorter keys or known plaintext attacks.
 
     This class inherits from `SimpleEncryptor`.
 
