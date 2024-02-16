@@ -11,6 +11,11 @@ class Atbash(SimpleEncryptor):
 
     This class inherits from `SimpleEncryptor`.
 
+    The `Atbash cipher` is a basic encryption method dating back to biblical times.
+    It substitutes each letter of the alphabet with its inverse counterpart, such that
+    `"A"` is replaced by `"Z"` and vice versa. While easily reversible and lacking substantial
+    security, it serves well for simple message encoding and decoding purposes.
+
     Methods
     -------
     encrypt(text: str) -> str:
