@@ -11,6 +11,12 @@ class Substitution(SimpleEncryptor):
 
     This class inherits from `SimpleEncryptor`.
 
+    The `substitution cipher` is a basic encryption technique where each plaintext
+    character is replaced by another character based on a fixed system. It operates
+    by substituting one character for another according to a predetermined key.
+    While simple to implement, it's vulnerable to frequency analysis and other
+    cryptographic attacks, making it insufficient for robust security requirements.
+
     Methods
     -------
     encrypt(text: str) -> str:
