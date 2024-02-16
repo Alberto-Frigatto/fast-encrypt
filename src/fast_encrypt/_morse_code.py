@@ -11,6 +11,11 @@ class MorseCode(SimpleEncryptor):
 
     This class inherits from `SimpleEncryptor`.
 
+    The `Morse code` is a method of encoding text characters as sequences
+    of two different signal durations called dots and dashes. It's widely
+    used for transmitting telegraphic information where long and short signals
+    represent letters and numbers.
+
     Methods
     -------
     encrypt(text: str) -> str:
