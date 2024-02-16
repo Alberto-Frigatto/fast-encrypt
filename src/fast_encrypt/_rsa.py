@@ -13,6 +13,13 @@ class RSA:
     """
     A class for implementing the RSA algorithm for asymmetric encryption.
 
+    `RSA` is a public-key encryption algorithm widely used in secure data transmission
+    and digital signatures. It relies on the practical difficulty of factoring the product
+    of two large prime numbers. RSA encryption involves generating a public and private
+    key pair, where the public key is used for encryption and the private key for decryption.
+    This asymmetric cryptography method ensures secure communication over insecure networks,
+    providing confidentiality and authenticity for sensitive information.
+
     Methods
     -------
     generate_keypair() -> tuple[_public_key, _private_key]:
