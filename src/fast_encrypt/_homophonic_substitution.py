@@ -13,6 +13,11 @@ class HomophonicSubstitution(SimpleEncryptor):
 
     This class inherits from `SimpleEncryptor`.
 
+    The `homophonic substitution` cipher replaces each plaintext character with multiple
+    cipher characters to create ambiguity and increase security. This technique, used in
+    cryptographic systems, assigns more than one ciphertext symbol to certain plaintext
+    symbols, making frequency analysis and decryption more challenging.
+
     Methods
     -------
     encrypt(text: str) -> str:
