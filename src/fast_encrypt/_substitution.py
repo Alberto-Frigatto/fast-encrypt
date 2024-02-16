@@ -23,7 +23,7 @@ class Substitution(SimpleEncryptor):
     --------
     Encrypting a text
 
-    >>> from encrypt import Substitution
+    >>> from fast_encrypt import Substitution
     >>> substitution_cipher = Substitution('QWERTYUIOPASDFGHJKLZXCVBNM')
     >>> substitution_cipher.encrypt('Hello World!')
     "Itssg Vgksr!"

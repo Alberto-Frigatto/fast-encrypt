@@ -25,7 +25,7 @@ class HomophonicSubstitution(SimpleEncryptor):
     --------
     Encrypting a text:
 
-    >>> from encrypt import HomophonicSubstitution
+    >>> from fast_encrypt import HomophonicSubstitution
     >>> homophonic_cipher = HomophonicSubstitution('KEY')
     >>> homophonic_cipher.encrypt('Saul Hudson')
 

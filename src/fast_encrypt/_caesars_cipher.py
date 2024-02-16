@@ -23,7 +23,7 @@ class CaesarsCipher(SimpleEncryptor):
     --------
     Encrypting a text
 
-    >>> from encrypt import CaesarsCipher
+    >>> from fast_encrypt import CaesarsCipher
     >>> caesar_cipher = CaesarsCipher(17)
     >>> caesar_cipher.encrypt('Hello World!')
     "Yvccf Nficu!"

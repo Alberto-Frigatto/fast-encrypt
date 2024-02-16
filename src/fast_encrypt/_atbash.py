@@ -23,7 +23,7 @@ class Atbash(SimpleEncryptor):
     --------
     Encrypting a text:
 
-    >>> from encrypt import Atbash
+    >>> from fast_encrypt import Atbash
     >>> atbash_cipher = Atbash()
     >>> atbash_cipher.encrypt('Hello World!')
     "Svool Dliow!"

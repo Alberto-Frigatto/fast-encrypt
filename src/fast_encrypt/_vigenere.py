@@ -23,7 +23,7 @@ class Vigenere(SimpleEncryptor):
     --------
     Encrypting a text:
 
-    >>> from encrypt import Vigenere
+    >>> from fast_encrypt import Vigenere
     >>> vigenere_cipher = Vigenere('KEY')
     >>> vigenere_cipher.encrypt('Hello World!')
     "Rijvs Uyvjn!"

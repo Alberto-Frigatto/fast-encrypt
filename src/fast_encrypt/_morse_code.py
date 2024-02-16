@@ -23,7 +23,7 @@ class MorseCode(SimpleEncryptor):
     --------
     Encrypting a text
 
-    >>> from encrypt import MorseCode
+    >>> from fast_encrypt import MorseCode
     >>> morse = MorseCode()
     >>> morse.encrypt('Jimi Hendrix')
     ".--- .. -- .. .... . -. -.. .-. .. -..-"

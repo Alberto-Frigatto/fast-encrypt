@@ -23,7 +23,7 @@ class Pipeline:
     --------
     Encrypting a text using a pipeline:
 
-    >>> from encrypt import Pipeline, CaesarsCipher, MorseCode, Vigenere
+    >>> from fast_encrypt import Pipeline, CaesarsCipher, MorseCode, Vigenere
     >>> pipeline = Pipeline([CaesarsCipher(3), Vigenere('KEY'), MorseCode()])
     >>> pipeline.encrypt('Hello World!')
     "..- .-.. -- -.-- ...- -..- -... -.-- -- --.-"

@@ -28,7 +28,7 @@ class RSA:
     --------
     Encrypting a text
 
-    >>> from encrypt import RSA
+    >>> from fast_encrypt import RSA
     >>> rsa = RSA()
     >>> public_key, private_key = rsa.generate_keypair()
     >>> rsa.encrypt(public_key, 'Hello World!')
