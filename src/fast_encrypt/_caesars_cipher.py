@@ -11,6 +11,13 @@ class CaesarsCipher(SimpleEncryptor):
 
     This class inherits from `SimpleEncryptor`.
 
+    The `Caesar's cipher` is a classic encryption technique attributed
+    to Julius Caesar. It involves shifting each letter of the alphabet
+    by a fixed number of positions. For example, with a shift of 1, `"A"` becomes
+    `"B"` and `"B"` becomes `"C"`, wrapping around the alphabet if necessary.
+    While historically significant, the Caesar's cipher offers minimal security and
+    is easily cracked with modern computational methods.
+
     Methods
     -------
     encrypt(text: str) -> str:
